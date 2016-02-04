@@ -3,7 +3,7 @@ import random
 class Grid(object):
 	def __init__(self):
 		self.map_length = 4
-		self.end_number = 1024
+		self.end_number = 2048
 		# initialize array
 		self.arr = [[0 for x in range(self.map_length)] for x in range(self.map_length)]
 		self.__generate_random(3)
